@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-03T02:44:37.471Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="zA1W9dkpkJGsSghA3cQi" version="13.10.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-03T03:13:21.126Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="UNqpzlXh6ZBQE9bjQuv0" version="13.10.5" type="github">
   <diagram id="4KBtijwvLpDPA0yrNVM6" name="Page-1">
     <mxGraphModel dx="817" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,14 +8,14 @@
           <mxGeometry x="50" y="60" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="2dCae-smeq8dhZM-stZv-5" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Balance&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; String&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;accountId&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;String&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;coinSymbol&amp;nbsp; &amp;nbsp; String&lt;br&gt;capital&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Number&lt;br&gt;createTime&amp;nbsp; &amp;nbsp; &amp;nbsp;Number&lt;br&gt;updateTime&amp;nbsp; &amp;nbsp; Number&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" parent="1" vertex="1">
-          <mxGeometry x="90" y="390" width="180" height="120" as="geometry" />
+          <mxGeometry x="70" y="290" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="6I5bSdhw8Pqrt3Q80-_E-1" value="Relation" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="2dCae-smeq8dhZM-stZv-5">
           <mxGeometry x="0.1111" y="-10" relative="1" as="geometry">
             <mxPoint x="330" y="330" as="sourcePoint" />
             <mxPoint x="430" y="160" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="430" y="450" />
+              <mxPoint x="430" y="340" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -42,18 +42,18 @@
             <mxPoint x="10.04" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6I5bSdhw8Pqrt3Q80-_E-9" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Ledger&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; String&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;pubKey&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;String&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;interest&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Number&lt;br&gt;createTime&amp;nbsp; &amp;nbsp;Number&lt;br&gt;updateTime&amp;nbsp; Number&lt;br&gt;coinSymbol&amp;nbsp; String&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="550" width="180" height="120" as="geometry" />
+        <mxCell id="6I5bSdhw8Pqrt3Q80-_E-9" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;Ledger&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; String&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;pubKey&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;String&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;interest&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Number&lt;br&gt;createTime&amp;nbsp; &amp;nbsp;Number&lt;br&gt;updateTime&amp;nbsp; Number&lt;br&gt;coinSymbol&amp;nbsp; String&lt;br&gt;capital&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Number&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="550" width="180" height="130" as="geometry" />
         </mxCell>
         <mxCell id="6I5bSdhw8Pqrt3Q80-_E-10" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;ValidatorAccount&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;String&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK1&lt;/td&gt;&lt;td&gt;accountId&amp;nbsp; &amp;nbsp; String&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;createTime&amp;nbsp; Number&lt;br&gt;pubKey&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;String&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="370" width="180" height="90" as="geometry" />
+          <mxGeometry x="647" y="300" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="6I5bSdhw8Pqrt3Q80-_E-11" value="Relation" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6I5bSdhw8Pqrt3Q80-_E-10">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="600" y="310" as="sourcePoint" />
             <mxPoint x="510.98" y="160" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="511" y="415" />
+              <mxPoint x="511" y="345" />
             </Array>
           </mxGeometry>
         </mxCell>
